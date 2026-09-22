@@ -56,12 +56,12 @@ stages:
       size: 2398217
     - path: models/label_encoder.pkl
       hash: md5
-      md5: cdd6d7a4af5480a23246665d4d68e71f
+      md5: 5c0748e8f3dc61a6985e51bfb31159b4
       size: 803
     - path: models/scaler.pkl
       hash: md5
-      md5: 6fbf80efafb7cd0b22572d48a124c76e
-      size: 702
+      md5: e2db7e0421cdc8704aa4a2fab3c79fde
+      size: 691
   split:
     cmd: python src/split/split.py
     deps:
